@@ -5,7 +5,7 @@
     "main": "cavalier_contours_web_ffi.js",
     "module": "cavalier_contours_web_ffi.js",
     "types": "cavalier_contours_web_ffi.d.ts",
-    "private": true,
+    "private": false,
     "author": "cx",
     "license": "ISC"
 }
