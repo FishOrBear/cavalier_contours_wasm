@@ -4,7 +4,7 @@
         "jbuckmccready<jbuckmccready@gmail.com>"
     ],
     "description": "Wraps types and functions from cavalier_contours using wasm-bindgen for use in web apps.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "license": "MIT OR Apache-2.0",
     "repository": {
         "type": "git",
@@ -12,6 +12,7 @@
     },
     "files": [
         "cavalier_contours_web_ffi_bg.wasm",
+        "cavalier_contours_web_ffi_bg.js",
         "cavalier_contours_web_ffi.js",
         "cavalier_contours_web_ffi.d.ts"
     ],
