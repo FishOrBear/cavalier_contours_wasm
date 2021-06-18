@@ -1,11 +1,21 @@
 {
     "name": "cavalier_contours_wasm",
-    "version": "0.0.1",
-    "description": "",
-    "main": "cavalier_contours_web_ffi.js",
+    "collaborators": [
+        "jbuckmccready<jbuckmccready@gmail.com>"
+    ],
+    "description": "Wraps types and functions from cavalier_contours using wasm-bindgen for use in web apps.",
+    "version": "0.0.2",
+    "license": "MIT OR Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jbuckmccready/cavalier_contours_web_demo"
+    },
+    "files": [
+        "cavalier_contours_web_ffi_bg.wasm",
+        "cavalier_contours_web_ffi.js",
+        "cavalier_contours_web_ffi.d.ts"
+    ],
     "module": "cavalier_contours_web_ffi.js",
     "types": "cavalier_contours_web_ffi.d.ts",
-    "private": false,
-    "author": "cx",
-    "license": "ISC"
+    "sideEffects": false
 }

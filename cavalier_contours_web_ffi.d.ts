@@ -9,7 +9,8 @@ export function greet(): void;
 export function init(): void;
 /**
 */
-export class Polyline {
+export class Polyline
+{
     free(): void;
     /**
     * @param {Float64Array} vertex_data
@@ -130,7 +131,8 @@ export class Polyline {
 }
 /**
 */
-export class StaticAABB2DIndex {
+export class StaticAABB2DIndex
+{
     free(): void;
     /**
     * @param {Float64Array} aabb_data
